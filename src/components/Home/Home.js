@@ -3,6 +3,7 @@ import './Home.css';
 import Reviews from '../Reviews/Reviews';
 import useReviews from '../../hooks/useReviews';
 import CustomerReview from '../CustomerReview/CustomerReview';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     const [reviews, setreviews] = useReviews();
@@ -29,7 +30,10 @@ const Home = () => {
                             ></CustomerReview>)
                     }
                 </div>
-                <button className='review-btn'>See all Reviews</button>
+                <Link to='/reviews'>
+                    <button className='review-btn'>See all Reviews</button>
+                </Link>
+
 
             </div>
 

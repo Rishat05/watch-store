@@ -1,0 +1,15 @@
+.dashboard-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 25px;
+    text-align: center;
+    color: rgb(110, 168, 253);
+}
+
+@media screen and (max-width:700px) {
+    .dashboard-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px 5px;
+    }
+}
