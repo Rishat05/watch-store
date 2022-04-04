@@ -12,7 +12,7 @@ import NotFound from './components/NotFound/NotFound';
 function App() {
   return (
     <div className="App">
-      <h1>Watch Store</h1>
+
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>

@@ -1,0 +1,37 @@
+.home-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 10px 20px;
+}
+
+.data-container {
+    margin: 10px 10px 10px 20px;
+    padding-left: 20px;
+
+}
+
+.pic-container {
+    margin: 20px 10px 10px 10px;
+    padding-left: 10px;
+
+}
+
+@media screen and (max-width:700px) {
+    .home-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 10px;
+    }
+
+    .pic-container {
+        order: 1;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .data-container {
+        order: 2;
+        margin: 10px;
+        text-align: center;
+    }
+
+}
