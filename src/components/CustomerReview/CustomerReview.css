@@ -3,10 +3,26 @@
     width: 350px;
 }
 
-
-
 .review-img {
     width: 350px;
     height: 280px;
     border-radius: 5px;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+}
+
+.rating-point {
+    font-weight: 600;
+    padding-left: 5px;
+
 }
