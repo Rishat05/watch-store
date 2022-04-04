@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Audric Strider Angular Watch ",
+        "author": "Caleb Button",
+        "img": "https://www.watchreviewblog.com/wp-content/uploads/2022/03/Nordgreen-Copenhagen-Pioneer-Black-Dial-Review-1536x906.jpg",
+        "comment": "I have a similar looking watch, also a chrono, which doesn't have lume on the hands like the watch you're showing. The problem is that at night, or in low light conditions, the hands disappear and the watch looks like a dark circle on my wrist on which I cannot read the time. So warning: Do not buy a watch with a dark face that does not have lume on the hands. You won't be able to read the time at night."
+    },
+    {
+        "id": 2,
+        "name": "Nordgreen Copenhagen Pioneer",
+        "author": " Matthew Catellier",
+        "img": "https://www.watchreviewblog.com/wp-content/uploads/2022/03/Audric-Strider-Angular-Watch-Review-1-1536x864.jpeg",
+        "comment": "As regular readers will know, I have a soft spot for microbrands and new manufacturers. Yes, brands like Omega and Patek Philippe make some gorgeous timepieces and have carved out a secluded market of their own, but many smaller watchmakers produce some impressivly designed watches as well. "
+    },
+    {
+        "id": 3,
+        "name": "MW Legatodiver Watch",
+        "author": " Matthew Catellier",
+        "img": "https://www.watchreviewblog.com/wp-content/uploads/2022/03/MW-Legatodiver-Music-Inspired-1536x1024.jpg",
+        "comment": "MW has touted the Legatodiver as “the first-ever premium wristwatch with a combination of musical approaches and iconic timepieces that ever existed.” That’s a pretty strong statement, and I’m not sure it’s 100% accurate, but this is undeniably a unique timepiece. The bezel is either black or blue depending on the dial option, and it features an inlaid guitar fretboard design. The fret markings actually double as indexes, which is a clever marriage of form and function. The fret markings and the “strings” also have a lume finish, so they’re visible in the dark. The bezel has a 120-click uni-directional rotation, which is perfect for diving."
+    },
+    {
+        "id": 4,
+        "name": "Bremont Supermarine S302 GMT Watch",
+        "author": "Matthew Catellier",
+        "img": "https://www.watchreviewblog.com/wp-content/uploads/2022/02/Bremont-Supermariner-S302-GMT-Watch-Review-1536x1024.jpg",
+        "comment": "The sapphire crystal is scratch-resistant, and features an anti-glare coating. It’s domed enough to distort the outer edge of the dial ever so slightly, but not enough to throw off your accuracy. The stainless steel case back has a screw-down design, which makes the watch easier to service. It’s also decorated with an embossed seaplane, the emblem of the Supermarine line. Despite the screw-down case back, you’re still looking at an exceptionally water-resistant watch. It’s rated for 300 meters, even better than most dive watches."
+    },
+    {
+        "id": 5,
+        "name": "Heron Gladiateur Watch",
+        "author": "Matthew Catellier",
+        "img": "https://www.watchreviewblog.com/wp-content/uploads/2022/01/Heron-Gladiateur-Watch-Review-1536x927.jpg",
+        "comment": "The outer index consists of 60 small hashes at the individual minute marks. The hashes at the five minute marks are a bit fatter, but the difference is very minor. Thankfully, there are applied markings at the five minute positions, located just inside of the outer index. These applied markers are rectangular in shape, with a triangular marker at the 12 o’clock position. They have fine silver borders, except for the rose gold version, which has rose gold borders."
+    },
+    {
+        "id": 6,
+        "name": "Circula SuperSport Super-Compressor Dive Watch",
+        "author": " Caleb Button",
+        "img": "https://www.watchreviewblog.com/wp-content/uploads/2021/12/Circula-SuperSport-Super-Compressor-Dive-Watch-Review-1536x864.jpeg",
+        "comment": "At first glance it seems oversized, and bulky; yet, those concerns quickly fade when on wrist. The design vaguely reminds me of an ancient hieroglyph a scarab beetle that somehow lands neatly between an art deco and brutalist design approach. One further praise of the bracelet is that Circula has done an impeccable job with their quick release end link. The end link manages to seamlessly nest between the lugs yet does so with no perceivable resistance. This small engineering feet has me impressed, making last minute bracelet swaps a breeze. Circula didn’t stop there either, if ease of use is something you value, you’ll definitely appreciate the screw in H-link pins and, milled clasp with 6 spaces for micro-adjustment. The aforementioned bracelet does stands out in comfort and quality, though I find it an altogether more pleasant experience on strap; if for no other reason than it visually refines the watch in my opinion."
+    }
+]
