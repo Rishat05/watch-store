@@ -32,6 +32,19 @@
     padding: 8px 25px;
     border: none;
     border-radius: 5px;
+    text-align: center;
+}
+
+.home-review {
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.customer-reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px 40px;
 }
 
 @media screen and (max-width:700px) {
@@ -51,5 +64,12 @@
         margin: 10px;
         text-align: center;
     }
+
+    .customer-reviews {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px 5px 20px 15px;
+    }
+
+
 
 }
