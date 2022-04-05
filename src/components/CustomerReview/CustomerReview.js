@@ -13,19 +13,19 @@ const CustomerReview = (props) => {
                 <p>{comment}</p>
                 <h3>{name}</h3>
                 <div className="ratings">
-                    <i class="fas fa-star filled"></i>
-                    <i class="fas fa-star filled"></i>
-                    <i class="fas fa-star filled"></i>
-                    <i class="fas fa-star filled"></i>
-                    <i class="fas fa-star empty"></i>
-                    <span class="rating-point">{rating}</span>
+                    <i className="fas fa-star filled"></i>
+                    <i className="fas fa-star filled"></i>
+                    <i className="fas fa-star filled"></i>
+                    <i className="fas fa-star filled"></i>
+                    <i className="fas fa-star empty"></i>
+                    <span className="rating-point">{rating}</span>
 
                 </div>
 
             </div>
 
 
-        </div>
+        </div >
 
     );
 };
