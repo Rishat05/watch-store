@@ -4,7 +4,7 @@ import MyLineChart from '../MyLineChart/MyLineChart';
 
 const Dashboard = () => {
     return (
-        <div >
+        <div>
             <MyLineChart></MyLineChart>
         </div>
     );

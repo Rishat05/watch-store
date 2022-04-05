@@ -43,45 +43,57 @@ const MyLineChart = () => {
     ];
     return (
         <div className='dashboard-container'>
-            <div className="month-sell">
+            <div className="chart">
                 <h3>MONTH WISE SELL</h3>
-                <LineChart width={500} height={400} data={data}>
-                    <Line type="monotone" dataKey="sell" stroke="#8884d8" />
-                    <XAxis dataKey="month" />
-                    <YAxis />
-                    <Tooltip />
-                </LineChart>
+                <ResponsiveContainer width='95%' height={400}>
+                    <LineChart data={data}>
+                        <Line type="monotone" dataKey="sell" stroke="#8884d8" />
+                        <XAxis dataKey="month" />
+                        <YAxis />
+                        <Tooltip />
+                    </LineChart>
+                </ResponsiveContainer>
+
             </div>
 
-            <div className="investment-revenue">
+            <div className="chart">
                 <h3>Investment VS Revenue</h3>
-                <AreaChart width={500} height={400} data={data}>
-                    <XAxis dataKey="month" />
-                    <YAxis />
-                    <Tooltip />
-                    <Area type="monotone" dataKey="investment" stackId="1" stroke="#8884d8" fill="#8884d8" />
-                    <Area type="monotone" dataKey="revenue" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
-                </AreaChart>
+                <ResponsiveContainer width='95%' height={400}>
+                    <AreaChart data={data}>
+                        <XAxis dataKey="month" />
+                        <YAxis />
+                        <Tooltip />
+                        <Area type="monotone" dataKey="investment" stackId="1" stroke="#8884d8" fill="#8884d8" />
+                        <Area type="monotone" dataKey="revenue" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
+                    </AreaChart>
+                </ResponsiveContainer>
+
             </div>
 
-            <div className="investment-revenue-barChart">
+            <div className="chart">
                 <h3>Investment VS Revenue</h3>
-                <BarChart width={500} height={400} data={data}>
-                    <XAxis dataKey="month" />
-                    <YAxis />
-                    <Tooltip />
-                    <Bar dataKey="investment" stackId="a" fill="#8884d8" />
-                    <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
-                </BarChart>
+                <ResponsiveContainer width='95%' height={400}>
+                    <BarChart data={data}>
+                        <XAxis dataKey="month" />
+                        <YAxis />
+                        <Tooltip />
+                        <Bar dataKey="investment" stackId="a" fill="#8884d8" />
+                        <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
+                    </BarChart>
+                </ResponsiveContainer>
+
             </div>
 
-            <div className="investment-revenue-pieChart">
+            <div className="chart">
                 <h3>Investment VS Revenue</h3>
-                <PieChart width={500} height={400}>
-                    <Tooltip />
-                    <Pie data={data} dataKey="investment" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
-                    <Pie data={data} dataKey="revenue" cx="50%" cy="50%" innerRadius={70} outerRadius={95} fill="#82ca9d" label />
-                </PieChart>
+                <ResponsiveContainer width='95%' height={400} >
+                    <PieChart >
+                        <Tooltip />
+                        <Pie data={data} dataKey="investment" cx="50%" cy="50%" outerRadius={40} fill="#8884d8" />
+                        <Pie data={data} dataKey="revenue" cx="50%" cy="50%" innerRadius={50} outerRadius={70} fill="#82ca9d" label />
+                    </PieChart>
+                </ResponsiveContainer>
+
             </div>
 
         </div>

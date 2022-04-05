@@ -5,11 +5,17 @@
     margin: 25px;
     text-align: center;
     color: rgb(110, 168, 253);
+    padding: 10px;
+
 }
+
 
 @media screen and (max-width:700px) {
     .dashboard-container {
         grid-template-columns: repeat(1, 1fr);
-        margin: 20px 5px;
+        margin: 20px 2px;
+        gap: 10px;
+
     }
+
 }

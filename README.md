@@ -5,7 +5,9 @@ live site: https://assignment-9-rishat.netlify.app/
 * ReChart
 * Review
 * Dashboard
+* Hook
 * Home
+* About
 
 ## Available Scripts
 
