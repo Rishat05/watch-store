@@ -23,7 +23,7 @@
 }
 
 .customer-reviews {
-    text-align: center;
+    text-align: start;
 }
 
 .review-btn {
@@ -38,6 +38,7 @@
 .home-review {
     text-align: center;
     margin: 20px 10px;
+
 }
 
 .customer-reviews {
@@ -70,6 +71,8 @@
         margin: 20px 5px 20px 15px;
     }
 
-
+    /* .home-review {
+        text-align: start;
+    } */
 
 }

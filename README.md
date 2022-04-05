@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# Watch Store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+live site: https://assignment-9-rishat.netlify.app/
+<!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). -->
+* ReChart
+* Review
+* Dashboard
+* Home
 
 ## Available Scripts
 
