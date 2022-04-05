@@ -16,18 +16,20 @@ const Blogs = () => {
                 <div className="left">
                     <h1 className='question'>Inline block</h1>
                     <p>1. An inline element does not start on a new line.</p>
-                    <p>2. respect left and right margins and padding, but not top and bottom.</p>
-                    <p>3. cannot have a width and height set.</p>
-                    <p>4. allow other elements to sit to their left and right..</p>
+                    <p>2. Respect left and right margins and padding, but not top and bottom.</p>
+                    <p>3. Cannot have a width and height set.</p>
+                    <p>4. Allow other elements to sit to their left and right..</p>
+                    <p>5. Don't take extra space</p>
 
                 </div>
                 <div className="right">
                     <h1 className='question'>Inline block element</h1>
 
-                    <p>1. allow other elements to sit to their left and right .</p>
-                    <p>2. respect top and bottom margins and padding .</p>
-                    <p>3. respect height and width .</p>
-                    <p>4. force to behave like block element</p>
+                    <p>1. Allow other elements to sit to their left and right .</p>
+                    <p>2. Respect top and bottom margins and padding .</p>
+                    <p>3. Respect height and width .</p>
+                    <p>4. Behave like block element</p>
+                    <p>5. Can take extra space</p>
 
 
 

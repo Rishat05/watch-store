@@ -11,7 +11,7 @@ const Home = () => {
         <div>
             <div className="home-container">
                 <div className="data-container">
-                    <h1>Watch Store</h1>
+                    <h1 className='title'><span className='first-word-title'> Watch</span> Store</h1>
                     <p>A watch is a portable timepiece intended to be carried or worn by a person. It is designed to keep a consistent movement despite the motions caused by the person's activities.</p>
                     <button className='data-btn'>Live Demo</button>
                 </div>

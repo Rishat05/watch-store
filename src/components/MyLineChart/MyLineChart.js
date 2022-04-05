@@ -48,6 +48,7 @@ const MyLineChart = () => {
                 <ResponsiveContainer width='95%' height={400}>
                     <LineChart data={data}>
                         <Line type="monotone" dataKey="sell" stroke="#8884d8" />
+                        <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="month" />
                         <YAxis />
                         <Tooltip />
@@ -60,6 +61,7 @@ const MyLineChart = () => {
                 <h3>Investment VS Revenue</h3>
                 <ResponsiveContainer width='95%' height={400}>
                     <AreaChart data={data}>
+                        <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="month" />
                         <YAxis />
                         <Tooltip />
@@ -74,6 +76,7 @@ const MyLineChart = () => {
                 <h3>Investment VS Revenue</h3>
                 <ResponsiveContainer width='95%' height={400}>
                     <BarChart data={data}>
+                        <CartesianGrid strokeDasharray="5 5" />
                         <XAxis dataKey="month" />
                         <YAxis />
                         <Tooltip />

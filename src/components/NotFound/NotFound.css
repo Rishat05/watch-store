@@ -1,0 +1,12 @@
+.notFound {
+    text-align: center;
+}
+
+
+@media screen and (max-width:700px) {
+
+    .notFound img {
+        width: 80%;
+        height: 80%;
+    }
+}
